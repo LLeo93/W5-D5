@@ -1,0 +1,60 @@
+body {
+  min-width: 250px;
+  min-height: 100vh;
+}
+.logo {
+  width: 120px;
+  height: 80px;
+}
+#kids {
+  width: 15px;
+  height: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #drop {
+    translate: -150px;
+  }
+}
+.imgcard {
+  width: 230px;
+  height: 180px;
+  cursor: pointer;
+ 
+}
+.imgcard:hover{
+  width: 260px;
+  height: 200px;
+  position: relative;
+  z-index: 100000000000000;
+} /*
+@media screen and (min-width: 768px) {
+  #socials {
+    padding-left: 5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #socials {
+    justify-content: center;
+    padding-left: 2em;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  #socials {
+    padding-left: 0;
+    padding-right: 30em;
+  }
+}
+*/
+/*
+#socials {
+  translate: 30px -25px;
+}
+*/
+/*
+#socials {
+  margin-left: 30%;
+}
+  /*
